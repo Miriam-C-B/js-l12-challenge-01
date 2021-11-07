@@ -24,8 +24,8 @@ const displayImage = function(randomImage) {
     const imageAddress = randomImage.download_url;
     
 //changing DOM elements
-    authorSpan.innerText = randomImage.author;
-    img.src = randomImage.download_url;
+    authorSpan.innerText = author;
+    img.src = imageAddress;
     imgDiv.classList.remove("hide");
 };
 
